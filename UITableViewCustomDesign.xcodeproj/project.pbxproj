@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEBF458F2905B1320090ACE4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF458E2905B1320090ACE4 /* Post.swift */; };
+		BEBF45942905B3890090ACE4 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */; };
+		BEBF45972905B57F0090ACE4 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF45952905B57F0090ACE4 /* PostTableViewCell.swift */; };
+		BEBF45982905B57F0090ACE4 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBF45962905B57F0090ACE4 /* PostTableViewCell.xib */; };
 		BED41D34290584FE007CA102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED41D33290584FE007CA102 /* AppDelegate.swift */; };
 		BED41D36290584FE007CA102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED41D35290584FE007CA102 /* SceneDelegate.swift */; };
 		BED41D38290584FE007CA102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED41D37290584FE007CA102 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEBF458E2905B1320090ACE4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		BEBF45952905B57F0090ACE4 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		BEBF45962905B57F0090ACE4 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		BED41D30290584FE007CA102 /* UITableViewCustomDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCustomDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED41D33290584FE007CA102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED41D35290584FE007CA102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEBF458D2905B1190090ACE4 /* PostData */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF458E2905B1320090ACE4 /* Post.swift */,
+			);
+			path = PostData;
+			sourceTree = "<group>";
+		};
+		BEBF45922905B19C0090ACE4 /* PostTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF45952905B57F0090ACE4 /* PostTableViewCell.swift */,
+				BEBF45962905B57F0090ACE4 /* PostTableViewCell.xib */,
+			);
+			path = PostTableViewCell;
+			sourceTree = "<group>";
+		};
 		BED41D27290584FE007CA102 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +81,8 @@
 		BED41D32290584FE007CA102 /* UITableViewCustomDesign */ = {
 			isa = PBXGroup;
 			children = (
+				BEBF45922905B19C0090ACE4 /* PostTableViewCell */,
+				BEBF458D2905B1190090ACE4 /* PostData */,
 				BED41D33290584FE007CA102 /* AppDelegate.swift */,
 				BED41D35290584FE007CA102 /* SceneDelegate.swift */,
 				BED41D37290584FE007CA102 /* ViewController.swift */,
@@ -63,6 +90,7 @@
 				BED41D3C290584FE007CA102 /* Assets.xcassets */,
 				BED41D3E290584FE007CA102 /* LaunchScreen.storyboard */,
 				BED41D41290584FE007CA102 /* Info.plist */,
+				BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */,
 			);
 			path = UITableViewCustomDesign;
 			sourceTree = "<group>";
@@ -128,6 +156,7 @@
 				BED41D40290584FE007CA102 /* LaunchScreen.storyboard in Resources */,
 				BED41D3D290584FE007CA102 /* Assets.xcassets in Resources */,
 				BED41D3B290584FE007CA102 /* Main.storyboard in Resources */,
+				BEBF45982905B57F0090ACE4 /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBF45942905B3890090ACE4 /* ViewControllerExtension.swift in Sources */,
 				BED41D38290584FE007CA102 /* ViewController.swift in Sources */,
 				BED41D34290584FE007CA102 /* AppDelegate.swift in Sources */,
 				BED41D36290584FE007CA102 /* SceneDelegate.swift in Sources */,
+				BEBF458F2905B1320090ACE4 /* Post.swift in Sources */,
+				BEBF45972905B57F0090ACE4 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

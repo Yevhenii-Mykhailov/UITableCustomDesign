@@ -35,7 +35,7 @@ class PostTableViewCell: UITableViewCell {
         userImageView.image = avatarImage
         contentImageView.image = contenImage
         likesCountLable.text = likesCount
-        postDescriptionLable.text = postImageName.makeBold(size: 12) + " " + postDescription
+        postDescriptionLable.attributedText = postDescription.makeBoldWord(boldWord: postImageName)
         countOfCommentsLable.text = countOfComments
         postedAtLable.text = postedAt
     }

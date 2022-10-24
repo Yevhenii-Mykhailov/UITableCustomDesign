@@ -50,6 +50,7 @@
 		BEA5F6F12906AB0B00F93E4E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */,
 				BEA5F6F32906AB2600F93E4E /* StringExtension.swift */,
 			);
 			path = Helpers;
@@ -101,7 +102,6 @@
 				BED41D3C290584FE007CA102 /* Assets.xcassets */,
 				BED41D3E290584FE007CA102 /* LaunchScreen.storyboard */,
 				BED41D41290584FE007CA102 /* Info.plist */,
-				BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */,
 			);
 			path = UITableViewCustomDesign;
 			sourceTree = "<group>";

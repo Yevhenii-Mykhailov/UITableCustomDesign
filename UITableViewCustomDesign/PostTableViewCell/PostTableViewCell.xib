@@ -62,8 +62,8 @@
                         <rect key="frame" x="0.0" y="64" width="463" height="252"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="userNameLable" text="PostImageName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHM-LA-qt0">
-                        <rect key="frame" x="64" y="24.999999999999996" width="96.666666666666686" height="14.333333333333332"/>
-                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <rect key="frame" x="64" y="24.999999999999996" width="99" height="14.333333333333332"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>

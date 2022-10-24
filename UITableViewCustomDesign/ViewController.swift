@@ -38,7 +38,7 @@ func createPosts() -> [Post] {
     let thirdContentImage = UIImage(named: "dog3")!
     
     let firstPost = Post(avatarImage: firstUserAvatar,
-                         postImageName: "dog1_wof",
+                         postImageName: "dog1_wof ",
                          contentImage: firstContentImage,
                          viewsCount: 553,
                          description: """
@@ -48,7 +48,7 @@ func createPosts() -> [Post] {
                          postedAt: 4)
     
     let secondPost = Post(avatarImage: secondUserAvatar,
-                          postImageName: "dog2_wof",
+                          postImageName: "dog2_wof ",
                           contentImage: secondContentImage,
                           viewsCount: 1088,
                           description: """
@@ -58,7 +58,7 @@ func createPosts() -> [Post] {
                           postedAt: 8)
     
     let thirdPost = Post(avatarImage: thirdUserAvatar,
-                         postImageName: "dog3_wof",
+                         postImageName: "dog3_wof ",
                          contentImage: thirdContentImage,
                          viewsCount: 413,
                          description: """

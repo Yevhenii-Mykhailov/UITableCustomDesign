@@ -19,21 +19,19 @@ extension ViewController: UITableViewDelegate {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       10
+        posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = postsTableView.dequeueReusableCell(withIdentifier: "PostTableViewCell") as? PostTableViewCell {
-            for post in posts {
-//                cell.postImageName = post.postImageName
-//                cell.avatarImage = post.avatarImage
-//                cell.contenImage = post.contentImage
-//                cell.likesCount = String(post.viewsCount)
-//                cell.postDescription = post.description
-//                cell.countOfComments = String(post.countOfComments)
-//                cell.postedAt = String(post.postedAt)
-                return cell
-            }
+            cell.postImageName = posts[indexPath.row].postImageName
+            cell.avatarImage = posts[indexPath.row].avatarImage
+            cell.contenImage = posts[indexPath.row].contentImage
+            cell.likesCount = String(posts[indexPath.row].viewsCount)
+            cell.postDescription = posts[indexPath.row].description
+            cell.countOfComments = String(posts[indexPath.row].countOfComments)
+            cell.postedAt = String(posts[indexPath.row].postedAt)
+            return cell
         }
         
         return UITableViewCell()

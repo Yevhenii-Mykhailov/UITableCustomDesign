@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA5F6F42906AB2600F93E4E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5F6F32906AB2600F93E4E /* StringExtension.swift */; };
 		BEBF458F2905B1320090ACE4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF458E2905B1320090ACE4 /* Post.swift */; };
 		BEBF45942905B3890090ACE4 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */; };
 		BEBF45972905B57F0090ACE4 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF45952905B57F0090ACE4 /* PostTableViewCell.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEA5F6F32906AB2600F93E4E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		BEBF458E2905B1320090ACE4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BEBF45932905B3890090ACE4 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		BEBF45952905B57F0090ACE4 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEA5F6F12906AB0B00F93E4E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BEA5F6F32906AB2600F93E4E /* StringExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BEBF458D2905B1190090ACE4 /* PostData */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +91,7 @@
 		BED41D32290584FE007CA102 /* UITableViewCustomDesign */ = {
 			isa = PBXGroup;
 			children = (
+				BEA5F6F12906AB0B00F93E4E /* Helpers */,
 				BEBF45922905B19C0090ACE4 /* PostTableViewCell */,
 				BEBF458D2905B1190090ACE4 /* PostData */,
 				BED41D33290584FE007CA102 /* AppDelegate.swift */,
@@ -168,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBF45942905B3890090ACE4 /* ViewControllerExtension.swift in Sources */,
+				BEA5F6F42906AB2600F93E4E /* StringExtension.swift in Sources */,
 				BED41D38290584FE007CA102 /* ViewController.swift in Sources */,
 				BED41D34290584FE007CA102 /* AppDelegate.swift in Sources */,
 				BED41D36290584FE007CA102 /* SceneDelegate.swift in Sources */,

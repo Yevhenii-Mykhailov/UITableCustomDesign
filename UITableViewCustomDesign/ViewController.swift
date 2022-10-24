@@ -50,22 +50,22 @@ func createPosts() -> [Post] {
     let secondPost = Post(avatarImage: secondUserAvatar,
                           postImageName: "dog2_wof",
                           contentImage: secondContentImage,
-                          viewsCount: 553,
+                          viewsCount: 1088,
                           description: """
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         """,
-                          countOfComments: 54,
-                          postedAt: 4)
+                          countOfComments: 76,
+                          postedAt: 8)
     
     let thirdPost = Post(avatarImage: thirdUserAvatar,
                          postImageName: "dog3_wof",
                          contentImage: thirdContentImage,
-                         viewsCount: 553,
+                         viewsCount: 413,
                          description: """
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         """,
-                         countOfComments: 54,
-                         postedAt: 4)
+                         countOfComments: 5,
+                         postedAt: 2)
     
     arrayOfPosts.append(firstPost)
     arrayOfPosts.append(secondPost)
